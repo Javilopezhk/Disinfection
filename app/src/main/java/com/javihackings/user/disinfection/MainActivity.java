@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             //animation.setFillAfter(true);
             //img_animation.startAnimation(animation[i]);
             s.addAnimation(animation[i]);
-            animation[i].setStartOffset(1000*i);
+            animation[i].setStartOffset(2000*i);
         }
         img_animation.startAnimation(s);
     }
