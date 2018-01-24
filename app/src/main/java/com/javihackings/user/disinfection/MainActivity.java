@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         int min = 200;
         int max = 400;
         Random r = new Random();
-        int maxAnim = 100;
+        int maxAnim = 300;
         AnimationSet s = new AnimationSet(true);
         TranslateAnimation[] animation = new TranslateAnimation[maxAnim];
         for(int i=0; i<maxAnim;i++) {
